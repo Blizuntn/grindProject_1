@@ -1,0 +1,54 @@
+h1 {
+  font-size: 100px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+h3 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.theTitle {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.box1 {
+  display: inline-flex;
+  background-color: white;
+  height: 200px;
+  border: solid;
+  width: 200px;
+}
+.box2 {
+  display: inline-flex;
+  background-color: white;
+  height: 200px;
+  border: solid;
+  width: 200px;
+}
+.box3 {
+  display: inline-flex;
+  background-color: white;
+  height: 200px;
+  border: solid;
+  border-color: black;
+  width: 200px;
+}
+.box4 {
+  display: inline-flex;
+  background-color: white;
+  height: 200px;
+  border: solid;
+  border-color: black;
+  width: 200px;
+}
+.boxes {
+  justify-content: center;
+}
+.orbit-slide {
+  padding: 20px;
+}
+
+.cardsBox {
+  margin-top: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

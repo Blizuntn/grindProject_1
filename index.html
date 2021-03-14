@@ -1,31 +1,103 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Michael Grind</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class= "top container">
-
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRIND</title>
+    <link rel="stylesheet" href="css/assets/css/foundation.css" >
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <div class="mainPage">
+    <div class="top-bar">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text"><strong>L.I.F.E.</strong></li>
+            <li><input type="search" placeholder="This day in History"></li>
+            <li><button type="button" class="button">Search</button></li> 
+          </ul>
         </div>
-        <div class= "middle container">
-
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li class="home"><a href="#">Home</a></li>
+            <li><a href="#">Executions</a></li>
+            <li><a href="#">Profile</a></li>
+            
+        </ul>
         </div>
-        <div class = "bottom container">
+      </div>
+      <div class="dayInHistory"></div>
+     
+      <div class="theTitle">
+          <h1>L.I.F.E</h1>
+          <h3>Adapt or Die</h3>
+          
+      </div>
+      <div class="quoteOfTheDay">
+          
+    </div>
+      <!-- <div class="boxes">
 
+        <div class="box1">
+          <h4>Evaluate</h4>
         </div>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="js/script.js" async defer></script>
-    </body>
+        <div class="box2">
+          <h4>Charge</h4>
+        </div>
+         <div class="box3">
+            <h4>Seperate</h4>
+        </div>
+        <div class="box4">
+          <h4>Sacrifice</h4>
+        </div>
+      </div> -->
+      </div>
+      <div class="cardsBox">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x small-up-2 medium-up-4">
+          <div class="cell">
+            <div class="card">
+              <div class="card-section">
+              <h4>Evaluate.</h4>
+                <p>Understanding your why is key. What is your why?</p>
+              </div>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-section">
+                <h4>Focus.</h4>
+                <p>Its better to read one page a hundred times. Then to read one hundred pages once.</p>
+              </div>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-section">
+                <h4>Seperate.</h4>
+                <p>Eliminate everything that is distracting or taking away time from your goals and dreams.</p>
+              </div>
+            </div>
+          </div>
+          <div class="cell">
+              <div class="card">
+                  <div class="card-section">
+                      <h4>Sacrifice.</h4>
+                      <p>What are you willing to give up? How bad do you want this?</p>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
