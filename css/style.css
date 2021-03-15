@@ -52,3 +52,37 @@ h3 {
   margin-top: 100px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.card-divider {
+  font-size: xx-large;
+  justify-content: center;
+  font-family: monospace;
+}
+.quoteOfTheDay {
+  text-align: center;
+}
+.dayInHistory {
+  text-align: center;
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#signDate {
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#quoteAuthor {
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#quoteText {
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#mainHeading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 10em;
+}
+
+#subHeading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 5em;
+}
